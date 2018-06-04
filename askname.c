@@ -8,5 +8,5 @@ void askname(char *first, char *last)
     first[strlen(first)-1] = '\0'; /* remove the newline at the end */
 
     printf("Now enter your last name: ");
-    gets(last); /* buffer overflow? what's that? */
+    gets(last); /* buffer overflow? what's that? *//
 }
